@@ -1,0 +1,16 @@
+  294  git push
+  295  git status
+  296  vim never
+  297  git add never
+  298  git reset never
+  299  git status
+  300  git reset never
+  301  git commit -m ''
+  302  rm never
+  303  git status
+  304  man rm
+  305  i
+  306  man rm
+  307  man cp
+  308  ls
+  309  history
