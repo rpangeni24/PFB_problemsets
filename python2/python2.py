@@ -5,4 +5,9 @@ if my_pet == 'rob':
 	print('true')
 else:
 	print('not true')
+number = -10
+if number >0:
+	print('positive')
+else:
+	print('negative')
 
