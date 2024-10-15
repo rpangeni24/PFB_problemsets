@@ -11,3 +11,11 @@ if number >0:
 else:
 	print('negative')
 
+number2 = 20
+if number2 > 0:
+	print('not true')
+elif number > 20:
+	print('number is greater than 20')
+else:
+	print('number is 20')
+
