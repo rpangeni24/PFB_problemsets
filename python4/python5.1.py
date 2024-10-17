@@ -17,9 +17,27 @@ print(my_fav[fav_thing])
 
 print(my_fav['tree'])
 
-#adding new key to the disctionary
+#questioin 5: adding new key to the disctionary
 
-my_fav[organism] = Ecoli
+my_fav['organism'] = 'Ecoli'
 
 print(my_fav)
+fav_thing = 'organism'
+print(my_fav[fav_thing])
+
+my_dict = my_fav
+
+print(my_dict)
+
+#question 6: using a for loop to print out each key and value from the dictionary
+
+for my_dict_key in my_dict:
+	print(my_dict_key, my_dict[my_dict_key])
+
+
+#question 7: getting values from the dictionary
+
+
+print(my_dict[fav_thing])
+
 
