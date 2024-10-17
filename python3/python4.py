@@ -97,6 +97,51 @@ for number in numbers:
 		sum_odd+=number
 print(sum_even, sum_odd)
 
+print('sum of even numbers:',sum_even, 'sum of odds:',sum_odd)
+
+#Question 8 for loop using range function
+
+range(100)
+range(0,100)
+for num in range(100) :
+	print(num)
+
+#questioin 9: Modified script for numbers 1 to 100
+
+range(101)
+range(1,101)
+for num in range(101) :
+	print(num)
+#Question 10
+import sys 
+
+min =int( sys.argv[1])
+max = int(sys.argv[2])+1
+for num in range(min, max):
+	print(num)
+
+#Question 11
+
+import sys
+ 
+min = int (sys.argv[1]) 
+max = int(sys.argv[2])+1
+
+for number in range (min,max):
+	if number%2 == 1:
+		print(number)
+
+
+
+#Question 13 
+
+dnaseqs = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+
+for dnaseq in dnaseqs:
+	print(dnaseq)
+
+
+
 
 
 

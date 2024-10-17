@@ -8,3 +8,4 @@ dnaseqs = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCC
 for dnaseq in dnaseqs:
         print(dnaseq)
 
+
