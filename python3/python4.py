@@ -71,6 +71,36 @@ print("f ",f)
 print("done")
 
 
+# workiing with question 6
+
+numbers = [101,2,15,22,95,33,2,27,72,15,52]
+for number in numbers:
+	if number%2 == 0:
+		print(number)
+
+
+#Question 7
+
+numbers.sort()
+print(numbers)
+
+print(numbers)
+
+for number in numbers:
+	print(number)
+sum_even = 0
+sum_odd = 0
+for number in numbers:
+	if number%2 == 0:
+  		sum_even+=number
+	else: 
+		sum_odd+=number
+print(sum_even, sum_odd)
+
+
+
+
+
 
 
 
