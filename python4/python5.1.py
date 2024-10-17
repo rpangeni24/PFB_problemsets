@@ -38,6 +38,18 @@ for my_dict_key in my_dict:
 #question 7: getting values from the dictionary
 
 
-print(my_dict[fav_thing])
+import sys
+
+organism = sys.argv[1]
+
+print(my_dict[organism])
+
+
+
+
+
+
+
+
 
 
