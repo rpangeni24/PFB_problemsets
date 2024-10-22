@@ -7,15 +7,14 @@ apo_rsites = r"(A|G)AATT(C|T)"
 for seq in seq7:
     seq = seq.rstrip()
     if re.search(r"[GA]AATT[CT]",seq):
-        seq_cut = re.sub(apo_rsites,r"\1AATT^\2", seq)
+        seq_cut = re.sub(apo_rsites,r"\1^AATT\2", seq)
         #print(seq_cut)
-
         cutsites = seq_cut.split("^")
         print(cutsites)
 
-        #for fragments in cutsites:
-            #frag_length = [len(fragments)]
-        sorted_frag = sorted(cutsites)
-        print(sorted_frag)
+        for fragments in cutsites:
+            frag_length = [len(fragments)]
+        #sorted_frag = sorted(cutsites)
+            print(frag_length)
 
 
