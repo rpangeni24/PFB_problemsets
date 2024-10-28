@@ -1,0 +1,34 @@
+
+Whole Genome Bisulfite Sequencing resource
+
+Analysis and Performance Assessment of the Whole Genome Bisulfite Sequencing Data Workflow: Currently Available Tools and a Practical Guide to Advance DNA Methylation Studies
+link: ttps://pubmed.ncbi.nlm.nih.gov/35064762/
+PMID: 35064762  PMCID: PMC8963483 
+
+Trimming
+
+Link: http://www.usadellab.org/cms/?page=trimmomatic
+
+Alignment Strategies:
+
+Ideally, unmethylated Cs are identified when the
+reads are aligned to the reference genomes. However, bisulfite conversion raises two
+major computational challenges of data alignment: asymmetrical C-T alignment and
+reduced sequence complexity. Asymmetrical C-T alignment refers to the possibility of T
+alignment in sequencing reads to C in reference genomes and not vice versa [34]. Reduced
+sequence complexity makes it difficult to distinguish converted Ts from system errors,
+which exaggerates the inexact alignments
+
+Alignment tools
+
+Bowtie1 or 2
+
+Studies that propose three-letter aligners, such as Bismark and BWA-METH, outperformed command
+wildcard aligners, such as BRAT_BW, BSMAP, and GSnap in running
+time and peak memory usage.
+
+Alignment quality control
+
+M-Plot
+
+:
